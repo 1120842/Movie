@@ -54,16 +54,14 @@ for (let i = 0; i < 1; i++) {
     console.log("Просмотрено довольно мало фильмов");    
  } else if (personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
     console.log("Вы классический зритель");
- } else if (personalMovieDB.count >= 30) {
+ }  else if (personalMovieDB.count >= 30) {
     console.log("Вы киноман"); 
- } else {
+ }  else {
      console.log("Произошла ошибка");
  }
 
- if (personalMovieDB.string = Da) {
-    console.log("Давай еще");    
- } else if (personalMovieDB.string = Net) {
-    console.log("Больше не надо");
+ if (LovingMovieDB.count = 99) {
+    console.log("Давай еще");
  }
 
  console.log(personalMovieDB);

@@ -22,7 +22,8 @@ movie{as};
 
 
 Проверить, чтобы все работало без ошибок в консоли */
-'use strict'
+
+"use strict"
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 

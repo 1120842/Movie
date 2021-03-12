@@ -12,7 +12,14 @@
 
 4) Потренироваться и переписать цикл еще двумя способами*/
 
-'use strict';
+"use strict";
+
+// let result = confirm('Вы готовы пройти тест?');
+// if (result) {
+// document.querySelector('#result').textContent = 'Вы ответили, что готовы';
+// } else {
+// document.querySelector('#result').textContent = 'Вы ответили, что не готовы';
+// };
 
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 

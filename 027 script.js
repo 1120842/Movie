@@ -50,9 +50,9 @@
 
 // console.log("Ёжик" > "яблоко");
 
-// Чему равно 0 || "" || 2 || undefined || true || falsе ?
+// Чему равно 0 || "" || 2 || undefined || true || falsе ? Ответ 2 потому что или || запинается на правде ведь 0 и строка это ложь, а 2 это правда, поэтому запнется на 2
 
-console.log( 0 || "" || 2 || undefined || true || falsе );
+// console.log( 0 || "" || 2 || undefined || true || falsе );
 
 
 

@@ -4,8 +4,8 @@ const box = document.getElementById('box'),
       btns = document.getElementsByTagName('button'),
       circles = document.getElementsByClassName('circle'),
       wrapper = document.querySelector('.wrapper'),
-      hearts = wrapper.querySelectorAll('.heart'),
-      oneHeart = wrapper.querySelector('.heart');
+      hearts = document.querySelectorAll('.heart'),
+      oneHeart = document.querySelector('.heart')
       
 
 // box.style.backgroundColor = 'blue';
@@ -42,7 +42,7 @@ wrapper.append(div);
 // circles[0].remove();
 // wrapper.removeChild(hearts [1]);
 
-hearts[0].replaceWith(circles[0]);
+// hearts[0].replaceWith(circles[0]);
 // wrapper.replaceWith(circles[0], hearts[0]);
 
 div.innerHTML = "<h1>Hello World</h1>";
